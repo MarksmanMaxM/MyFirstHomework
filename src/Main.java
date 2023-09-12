@@ -17,6 +17,13 @@ public class Main {
         paper -= 7639;
 
         // 4 задание
+        var friend = 19;
+        System.out.println("friend1 = " + friend);
+        friend += 2;
+        System.out.println("friend2 = " + friend);
+        friend /= 7;
+        System.out.println("friend3 = " + friend);
+
 
 
 

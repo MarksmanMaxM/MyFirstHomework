@@ -47,6 +47,25 @@ public class Main {
         System.out.println("Общая масса боксёров = " + MassBoxers);
         System.out.println("Разница в весе боксёров = "+ DifMassBoxers);
 
+        // 7 задание
+        var Diff1 = 0.0;
+        var Diff2 = 0.0;
+        if(boxer1 > boxer2)
+        {
+            Diff1 = boxer1 - boxer2;
+            Diff2 = boxer1 % boxer2;
+        }
+        else
+        {
+            Diff1 = boxer2 - boxer1;
+            Diff2 = boxer2 % boxer1;
+        }
+
+        System.out.println("Результат вычитания = " + Diff1);
+        System.out.println("Остаток деления = "+ Diff2);
+
+
+
 
 
 

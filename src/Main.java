@@ -37,7 +37,15 @@ public class Main {
         frog /= 3.5;
         System.out.println("frog3 = " + frog);
         frog += 4;
-        System.out.println("frog3 = " + frog);
+        System.out.println("frog4 = " + frog);
+
+        // 6 задание
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        var MassBoxers = boxer1 + boxer2;
+        var DifMassBoxers = boxer2 - boxer1;
+        System.out.println("Общая масса боксёров = " + MassBoxers);
+        System.out.println("Разница в весе боксёров = "+ DifMassBoxers);
 
 
 

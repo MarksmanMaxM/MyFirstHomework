@@ -64,6 +64,14 @@ public class Main {
         System.out.println("Результат вычитания = " + Diff1);
         System.out.println("Остаток деления = "+ Diff2);
 
+        // 8 задание
+       var Time = 640;
+       var WorkTime = 8;
+       var Employees = Time / WorkTime;
+       var AddTime = (Employees + 94)*WorkTime;
+
+       System.out.println("Всего работников в компании — " + Employees + " человек");
+       System.out.println("Если в компании работает " + (Employees+94) + " человек, то всего " + AddTime + " часов работы может быть поделено между сотрудниками");
 
 
 

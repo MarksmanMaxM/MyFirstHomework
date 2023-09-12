@@ -16,6 +16,11 @@ public class Main {
         cat -= 1.6;
         paper -= 7639;
 
+        System.out.println("Вывод значений:");
+        System.out.println("Dog = " + dog);
+        System.out.println("Cat = " + cat);
+        System.out.println("Paper = " + paper);
+
         // 4 задание
         var friend = 19;
         System.out.println("friend1 = " + friend);
@@ -24,12 +29,19 @@ public class Main {
         friend /= 7;
         System.out.println("friend3 = " + friend);
 
+        // 5 задание
+        var frog = 3.5;
+        System.out.println("frog1 = " + frog);
+        frog *= 10;
+        System.out.println("frog2 = " + frog);
+        frog /= 3.5;
+        System.out.println("frog3 = " + frog);
+        frog += 4;
+        System.out.println("frog3 = " + frog);
 
 
 
-        System.out.println("Вывод значений:");
-        System.out.println("Dog = " + dog);
-        System.out.println("Cat = " + cat);
-        System.out.println("Paper = " + paper);
+
+
     }
 }
